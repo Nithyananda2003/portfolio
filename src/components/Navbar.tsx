@@ -3,7 +3,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
-import resumePDF from "../assets/Nithyananda R S.pdf";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
@@ -73,16 +72,6 @@ const Navbar = () => {
           <li>
             <a data-href="#contact" href="#contact">
               <HoverLinks text="CONTACT" />
-            </a>
-          </li>
-          <li>
-            <a
-              href={resumePDF}
-              download="Nithyananda R S.pdf"
-              data-cursor="disable"
-              className="resume-btn"
-            >
-              <HoverLinks text="RESUME" />
             </a>
           </li>
         </ul>
