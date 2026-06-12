@@ -74,6 +74,16 @@ const Navbar = () => {
               <HoverLinks text="CONTACT" />
             </a>
           </li>
+          <li>
+            <a
+              href="/src/assets/Nithyananda R S.pdf"
+              download="Nithyananda R S.pdf"
+              data-cursor="disable"
+              className="resume-btn"
+            >
+              <HoverLinks text="RESUME" />
+            </a>
+          </li>
         </ul>
       </div>
 
